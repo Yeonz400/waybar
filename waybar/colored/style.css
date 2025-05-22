@@ -1,0 +1,26 @@
+/* -----------------------------------------------------
+ * Import Pywal colors
+ * ----------------------------------------------------- */
+ @import '../../../../../.cache/wal/colors-waybar.css';
+ 
+@define-color foreground @color9;
+@define-color definecolor1 @color1;
+@define-color definecolor2 @color2;
+@define-color definecolor3 @color3;
+@define-color definecolor4 @color4;
+@define-color definecolor7 @color7;
+@define-color definecolor8 @color8;
+@define-color definecolor9 @color9;
+@define-color definecolor10 @color10;
+@define-color backgroundlight @color5;
+@define-color backgrounddark @color11;
+@define-color workspacesbackground1 @color5;
+@define-color workspacesbackground2 @color11;
+@define-color bordercolor @color11;
+@define-color textcolor1 #FFFFFF;
+@define-color textcolor2 #FFFFFF;
+@define-color textcolor3 #FFFFFF;
+@define-color iconcolor #FFFFFF;
+@import '../style.css';
+
+  
