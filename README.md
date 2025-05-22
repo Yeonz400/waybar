@@ -1,14 +1,14 @@
-Waybar Dotfiles
+# Waybar Dotfiles
 
 Welcome to my customized Waybar configuration. This setup is based on and modified from the ML4W (My Linux For Work) configuration. I stitched together several custom modules and tweaks to better match my taste. While it may not be the most professional setup, I hope you find it useful as a starting point!
 
-✨ Base Configuration
+# ✨ Base Configuration
 
 Origin: Based on the ML4W (My Linux For Work) Waybar setup
 
 Modifications: Includes various community modules and personal scripts for extended functionality and style
 
-🔌 Custom Modules & Scripts
+# 🔌 Custom Modules & Scripts
 
 Wayves (Cava for Waybar)
 
@@ -34,7 +34,7 @@ Displays formatted CPU temperature in Waybar
 
 Located at modules/cpu-temp.sh
 
-🎨 Theming with Pywal
+# 🎨 Theming with Pywal
 
 Dynamic Colors: No fixed hex values; everything is generated through Pywal
 
@@ -42,19 +42,19 @@ colored/ Folder: Contains the CSS files that use Pywal-generated colors
 
 Reminder: Make sure to run Pywal with a wallpaper before launching Waybar
 
-🛠️ Installation & Usage
+# 🛠️ Installation & Usage
 
 # 1. Clone the repo
-git clone https://github.com/yourusername/waybar-dotfiles.git ~/.config/waybar
+git clone [https://github.com/Yeonz400/waybar.git](https://github.com/Yeonz400/waybar.git) ~/.config/waybar
 
 # 2. Install dependencies
 sudo pacman -S waybar cava python-pip bluez-utils
 pip install psutil
 
 # 3. Set paths in the scripts
-# Edit the interpreter and paths at the top of:
-# - modules/bluetooth-custom.sh
-# - modules/cpu-temp.sh
+ Edit the interpreter and paths at the top of:
+ - modules/bluetooth-custom.sh
+ - modules/cpu-temp.sh
 
 # 4. Apply Pywal theme
 wal -i /path/to/your/wallpaper.jpg
